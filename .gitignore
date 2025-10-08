@@ -1,2 +1,48 @@
-build
+# Build directories
+build/
+Build/
+BUILD/
+build-*/
+cmake-build-*/
 .cache
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Generated files
+*.o
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Executable files
+difiplotter
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Clang compile commands
+compile_commands.json
+
+# Debug files
+*.dSYM/
