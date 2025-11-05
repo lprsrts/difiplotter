@@ -6,8 +6,8 @@ A C++ study project for visualizing directional fields of differential equations
 
 This project is designed as a learning tool to:
 - Practice C++ programming concepts
-- Study differential equations visually
 - Learn SFML graphics programming
+- Study differential equations visually
 - Understand numerical methods for ODE visualization
 
 ## What is a Directional Field?
@@ -52,12 +52,12 @@ make
 ### Phase 3: Directional Field Visualization
 - [x] Implement slope calculation at grid points
 - [x] Draw direction lines
-- [ ] Color-code arrows based on slope magnitude
+- [x] Color-code arrows based on slope magnitude
 - [ ] Add different differential equations to study:
-  - [ ] dy/dx = x (simple linear)
-  - [ ] dy/dx = y (exponential)
-  - [ ] dy/dx = -x/y (circular)
-  - [ ] dy/dx = x + y
+  - [x] dy/dx = x (simple linear)
+  - [x] dy/dx = y (exponential)
+  - [x] dy/dx = -x/y (circular)
+  - [x] dy/dx = x + y
   - [ ] dy/dx = sin(x) + cos(y)
 
 ### Phase 4: Interactive Features
@@ -71,42 +71,3 @@ make
 - [ ] Load equations from config file
 - [ ] Export plots as images
 - [ ] Add equilibrium point detection
-
-## Differential Equations to Study
-
-1. **dy/dx = x**
-   - Linear growth
-   - Solutions: y = x²/2 + C
-
-2. **dy/dx = y**
-   - Exponential growth/decay
-   - Solutions: y = Ce^x
-
-3. **dy/dx = -x/y**
-   - Circular/elliptical solutions
-   - Solutions: x² + y² = C
-
-4. **dy/dx = x + y**
-   - Combined linear and exponential
-   - More complex behavior
-
-5. **dy/dx = sin(x) + cos(y)**
-   - Trigonometric field
-   - Periodic behavior
-
-## Learning Resources
-
-### C++ Concepts to Practice
-- Classes and object-oriented design
-- STL containers (vector, function)
-- Function pointers/lambdas
-- Mathematical computations
-- Graphics programming with SFML
-
-### Differential Equations Concepts
-- First-order ODEs
-- Direction fields
-- Solution curves (integral curves)
-- Equilibrium points
-- Stability analysis
-- Numerical methods (Euler's method)
